@@ -157,6 +157,11 @@ hr{
 }
 .icon{
   margin: 2rem 0;
+  cursor: pointer;
+}
+.icon:hover, .icon:active{
+  transition: ease 100ms;
+  fill: #63c063;
 }
 input{
   font-family: 'Poppins', sans-serif;
